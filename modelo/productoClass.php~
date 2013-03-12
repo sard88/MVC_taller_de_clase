@@ -1,0 +1,20 @@
+<?php
+
+class Producto{
+	//Atributos
+	private $id_producto;
+	private $nombre;
+	private $descripcion;
+	private $costo;
+	private $precio;
+
+	function __construct($id_producto, $nombre, $descripcion, $costo, $precio){
+		//Asignar las variables al objeto
+		$this -> id_producto = $id_producto;
+		$this -> nombre = $nombre;
+		$this -> descripcion = $descripcion;
+		$this -> costo = $costo;
+		$this -> precio = $precio;
+	}
+
+}
